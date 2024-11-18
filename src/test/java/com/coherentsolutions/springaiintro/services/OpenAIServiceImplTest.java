@@ -14,7 +14,7 @@ class OpenAIServiceImplTest {
 
     @Test
     void getAnswer() {
-        String answer = openAIService.getAnswer("Give me 10 sentences that end in the word Apple");
+        String answer = openAIService.getAnswer("Give me 10 sentances that end in the word Apple.");
         System.out.println("Got the answer");
         System.out.println(answer);
     }
